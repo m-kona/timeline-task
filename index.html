@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation Timeline</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="animation.css" />
+    <!--href="https://formspree.io/f/mjvjgkdz" method="POST"-->
+  </head>
+  <body>
+    <!-- Landing section -->
+    <section class="landing">
+      <h1>My Timeline</h1>
+    </section>
+    <!-- Timeline section -->
+    <section class="timeline-container">
+      <!-- Timeline line -->
+      <div class="line"></div>
+      <!-- Timeline items -->
+      <div data-aos="fade-left" class="timeline-item item-1">
+        <h2>Green Box - <span>Web Developer</span></h2>
+        <h3>2022 - 2023</h3>
+        <p>Cape Town, South Africa.</p>
+      </div>
+      <div data-aos="fade-right" class="timeline-item item-2">
+        <h2>93Digital - <span>Web Developer</span></h2>
+        <h3>2023 - 2025</h3>
+        <p>London, UK.</p>
+      </div>
+      <div data-aos="fade-left" class="timeline-item item-3">
+        <h2>Facebook - <span>Web Developer</span></h2>
+        <h3>2026 - 2030</h3>
+        <p>Silicon Valley, USA.</p>
+      </div>
+      <div data-aos="fade-right" class="timeline-item item-4">
+        <h2>Konafy - <span>CEO</span></h2>
+        <h3>2030 - Present</h3>
+        <p>Middledrift Valley, South Africa.</p>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
